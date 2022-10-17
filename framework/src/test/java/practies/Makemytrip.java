@@ -41,7 +41,7 @@ public class Makemytrip {
 	    String date = "30";
 	    driver.findElement(By.xpath("//div[text()='"+month+"']"
 	    		+"/ancestor::div[@class='DayPicker-Months']/descendant::p[text()='"+date+"']")).click();
-	    
+	    system.out.println("bye");
 	    
 	    }
 
